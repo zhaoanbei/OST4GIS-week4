@@ -29,8 +29,6 @@ provided, you should have a fully functioning application complete with
 user input. Be sure to look through all the part3 `js` files to get a
 sense of how the pieces work.
 
-##### NOTE:
+In particular, look at the variables that are being set in `main.js` and
+think about how function scope is being used.
 
-Because this is done as group work, you'll need to share the code you
-write. Use github's pull-request mechanism to share finished code
-between partners.
