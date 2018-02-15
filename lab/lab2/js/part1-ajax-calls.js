@@ -1,7 +1,9 @@
 /**
  * Using ajax, download some data from a remote server and log it to the console
  */
-
+ var promise = $.ajax("https://raw.githubusercontent.com/CPLN-692-401/datasets/master/json/philadelphia-crime-snippet.json")
+ var recipe = function(response){console.log(JSON.parse(response));}
+ promise.then(recipe)
 
 
 
@@ -21,5 +23,4 @@ var Stamen_TonerLite = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/ton
   ext: 'png'
 }).addTo(map);
 
-// L.terminator().addTo(map)
-
+L.terminator().addTo(map)

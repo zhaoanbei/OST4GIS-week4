@@ -24,4 +24,44 @@ body {
     bottom: 0;
     overflow-y: auto;
     padding: 20px;
+    background-color: #696e77
+}
+
+    h1{
+      text-align: left;
+      font-size: 1em;
+      color: white
+    }
+    h2{
+      text-align: left;
+      font-size: 0.75em;
+      font-weight: normal;
+      color: #dcdfe5
+    }
+.button{
+  position: absolute;
+  right: 10px;
+  top: 35px;
+  background-color: #696e77;
+  font-size: 0.75em;
+  font-weight: normal;
+}
+.box{
+  background-color: #e2e2e2;
+  padding-left:10px;
+  padding-top: 30px;
+  padding-bottom: 30px
+}
+.blackhead{
+  font-size: 0.85em;
+  color:black;
+}
+.greywords{
+  font-size: 0.85em;
+  color:grey;
+  font-weight: lighter;
+}
+.blacksmall{
+  color:black;
+  font-size: 0.75em;
 }
